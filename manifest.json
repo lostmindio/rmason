@@ -16,8 +16,6 @@
     "default_popup": "src/browser_action/index.html"
   },
   "permissions": [
-    "tabs",
-    "https://*/* ",
-    ""
+    "tabs", "http://*/*", "https://*/*"
   ]
 }
