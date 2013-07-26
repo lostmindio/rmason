@@ -3,25 +3,54 @@
     <head>
         <meta charset="utf-8">
         <meta name="description" content="">
-        <link rel="stylesheet" href="../css/bootstrap.css">
-        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/main.css">
     </head>
     <body>
+<div class="container header-region">
+	<div class="navbar">  
+	  <div class="navbar-inner">  
+		<div class="container">  
+			<ul class="nav">  
+			  <li class="active">  
+				<a class="brand" href="#">RMason v0.1</a>  
+			  </li>  
+			  <li><a href="#">About</a></li>
+			</ul>  
+		</div>  
+	  </div>  
+	</div>      
+	
+	  <div class="row">
+    <div class="span2">
+		<button class="btn btn-primary menu-button">Test</button>
+		
+			<button class="btn btn-small menu-button">Run</button>
+			<button class="btn btn-small menu-button">Save</button>
+			<button class="btn btn-small menu-button">Export</button>
+			<button class="btn btn-small menu-button">Clear</button>
+		
+    </div>
+    <div class="span3">
+      <textarea class="span3" rows="8">/\d{2}\w{4}/</textarea>
+    </div>
+  </div>
+  
+</div>
 
-<div class="navbar navbar-inverse">  
-  <div class="navbar-inner">  
-    <div class="container">  
-		<ul class="nav">  
-		  <li class="active">  
-			<a class="brand" href="#">Regex Tool</a>  
-		  </li>  
-		  <li><a href="#">About</a></li>
-		</ul>  
-    </div>  
-  </div>  
-</div>          
+<div class="dropdown">
+  <!-- Link or button to toggle dropdown -->
+  <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+    <li><a tabindex="-1" href="#">Action</a></li>
+    <li><a tabindex="-1" href="#">Another action</a></li>
+    <li><a tabindex="-1" href="#">Something else here</a></li>
+    <li class="divider"></li>
+    <li><a tabindex="-1" href="#">Separated link</a></li>
+  </ul>
+</div>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="../js/jquery.min.js"><\/script>')</script>
+        <script src="../js/bootstrap.min.js"></script>
         <script src="../js/main.js"></script>
     </body>
 </html>

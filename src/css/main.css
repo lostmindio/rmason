@@ -21,6 +21,8 @@ textarea {
 body {
     font-size: 1em;
     line-height: 1.4;
+    width: 400px;
+    height: 500px;
 }
 
 /*
@@ -93,8 +95,16 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.header-region {
+	background: #ececf0;
+	height: 250px;
+}
 
-
+.menu-button {
+	width: 120px;
+	margin-left: 15%;
+	margin-bottom: 5%;
+}
 
 
 
